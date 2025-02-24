@@ -164,8 +164,8 @@ body {
   bottom: 0;
 }
 
-@media (max-width: 1350px) {
-  .grid-container {
+@media (max-width: 1024px) {
+  grid-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 400px);
     grid-template-areas:
